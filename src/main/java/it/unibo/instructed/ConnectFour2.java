@@ -5,12 +5,12 @@ import java.util.List;
 
 import it.unibo.ConnectFour;
 
-public class ConnectFourImpl implements ConnectFour {
+public class ConnectFour2 implements ConnectFour {
     private static final int ROWS = 6;
     private static final int COLS = 7;
     private final List<List<Character>> board;
 
-    public ConnectFourImpl() {
+    public ConnectFour2() {
         board = new ArrayList<>();
         for (int i = 0; i < ROWS; i++) {
             List<Character> row = new ArrayList<>();

@@ -10,7 +10,7 @@ public class ConnectFourMain {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         Player currentPlayer = Player.RED;
-        ConnectFour game = new ConnectFourGame();
+        ConnectFour game = new ConnectFour1();
 
         while (!game.isBoardFull() && !game.checkWin(Player.RED) && !game.checkWin(Player.YELLOW)) {
             game.printBoard();

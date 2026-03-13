@@ -10,3 +10,5 @@ This is a project in Java, so using Java conventions and practices is very impor
 - Always use var where type is inferrable
 - Do not use an array to store a singular value
 - Import classes when necessary, don't use the full package name when it's not needed
+- Avoid magic numbers, always store them in constants unless it's 0 or 1
+- When writing tests try to make a setup that runs before each test instead of repeating lines of code

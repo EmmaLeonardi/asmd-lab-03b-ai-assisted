@@ -7,7 +7,7 @@ import it.unibo.ConnectFour.Player;
 
 public class ConnectFourMain {
     public static void main(final String[] args) {
-        final var game = new ConnectFourImpl();
+        final var game = new ConnectFour2();
         var currentPlayer = Player.RED;
 
         try (final var scanner = new Scanner(System.in)) {

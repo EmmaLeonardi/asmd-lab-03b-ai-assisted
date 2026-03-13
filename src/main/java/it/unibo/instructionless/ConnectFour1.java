@@ -2,12 +2,12 @@ package it.unibo.instructionless;
 
 import it.unibo.ConnectFour;
 
-public class ConnectFourGame implements ConnectFour {
+public class ConnectFour1 implements ConnectFour {
     private static final int ROWS = 6;
     private static final int COLS = 7;
     private char[][] board; //I would have done a map of pairs, not a double pointer...
 
-    public ConnectFourGame() {
+    public ConnectFour1() {
         board = new char[ROWS][COLS];
         for (int i = 0; i < ROWS; i++) {
             for (int j = 0; j < COLS; j++) {
