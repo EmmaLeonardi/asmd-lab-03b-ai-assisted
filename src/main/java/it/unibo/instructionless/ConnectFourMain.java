@@ -1,9 +1,10 @@
-package it.unibo;
+package it.unibo.instructionless;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
 import it.unibo.ConnectFour.Player;
+import it.unibo.ConnectFour;
 
 public class ConnectFourMain {
     public static void main(String[] args) {

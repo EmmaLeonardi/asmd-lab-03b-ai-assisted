@@ -1,4 +1,6 @@
-package it.unibo;
+package it.unibo.instructionless;
+
+import it.unibo.ConnectFour;
 
 public class ConnectFourGame implements ConnectFour {
     private static final int ROWS = 6;
