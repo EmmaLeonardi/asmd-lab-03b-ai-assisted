@@ -7,4 +7,5 @@ public interface ConnectFour {
     void dropDisc(int column, char disc);
     boolean checkWin(Player player);
     boolean isBoardFull();
+    void printBoard();
 }
